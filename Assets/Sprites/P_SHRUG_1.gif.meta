@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b739d26991f997240809826a08e0aba6
+guid: e6aecb814c4628b499f9c69809de3d85
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -829903834576069578
-    second: P_run_1_0
+      213: 3345184766859040251
+    second: P_SHRUG_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: P_run_1_0
+      name: P_SHRUG_1_0
       rect:
         serializedVersion: 2
-        x: 79
+        x: 89
         y: 9
-        width: 172
+        width: 162
         height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63cdb560cd69b74f0800000000000000
-      internalID: -829903834576069578
+      spriteID: bf55ea862db7c6e20800000000000000
+      internalID: 3345184766859040251
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      P_SHRUG_1_0: 3345184766859040251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
