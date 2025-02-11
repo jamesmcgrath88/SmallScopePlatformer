@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 378350176}
   - component: {fileID: 378350175}
   - component: {fileID: 378350174}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ Transform:
   m_GameObject: {fileID: 378350173}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.38, y: -1.92, z: 0}
+  m_LocalPosition: {x: 1.11, y: -1.9, z: 0}
   m_LocalScale: {x: 10.54, y: 0.64, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -700,6 +700,26 @@ MonoBehaviour:
       m_Action: Right
       m_Flags: 0
     m_Flags: 0
+  JumpAction:
+    m_Name: Jump
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: ecfde79c-1436-44b7-a4b8-d9dc219cc900
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: f7eb61e3-d0f8-4536-86f3-08749b7af421
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Jump
+      m_Flags: 0
+    m_Flags: 0
+  PlatformsLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!50 &1884754527
 Rigidbody2D:
   serializedVersion: 5
@@ -715,7 +735,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 10
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -726,7 +746,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1884754528
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -784,7 +804,7 @@ GameObject:
   - component: {fileID: 1919744238}
   - component: {fileID: 1919744237}
   - component: {fileID: 1919744236}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
